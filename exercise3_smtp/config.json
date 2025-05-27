@@ -1,0 +1,28 @@
+{
+  "connection": {
+    "smtp_server": "smtp.mail.ru",
+    "port": "465",
+    "login": "karina.lapitskaya05@mail.ru",
+    "password": "BHvwCwUPVTVvDhVSgJZm",
+    "security": "ssl"
+  },
+  "message": {
+    "subject": "Важное письмо с документами",
+    "recipients": [
+      "thenao29@mail.ru",
+      "rinaanashova@yandex.ru"
+    ],
+    "text_file": "message.txt",
+    "attachments": {
+      "folder": "attachments",
+      "files": [
+        "cuteCAT.jpg"
+      ]
+    }
+  },
+  "settings": {
+    "encoding": "utf-8",
+    "timeout": 30,
+    "retries": 3
+  }
+}
